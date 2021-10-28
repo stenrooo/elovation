@@ -1,12 +1,12 @@
 source 'https://rubygems.org'
 
-ruby '2.4.0'
+ruby '3.0.2'
 
-gem 'rails', '~> 5.1'
+gem 'rails', '~> 6.1.4.1'
 
 gem 'pg'
 
-gem 'sass-rails', '~> 5.0'
+#gem 'sass-rails', '~> 5.0'
 gem 'jquery-rails'
 gem 'coffee-rails'
 gem 'uglifier'
@@ -21,7 +21,12 @@ gem 'elo'
 gem 'trueskill', github: 'saulabs/trueskill', require: 'saulabs/trueskill'
 
 group :production do
-  gem 'unicorn'
+    platforms :ruby do # linux
+      gem 'unicorn'
+    end
+    platforms :mswin do
+      # gems specific to windows
+    end
 end
 
 group :development do
