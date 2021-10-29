@@ -20,6 +20,8 @@ gem 'dynamic_form'
 gem 'elo'
 gem 'trueskill', github: 'saulabs/trueskill', require: 'saulabs/trueskill'
 
+gem 'sprockets', '~>3.7.2'
+
 group :production do
     platforms :ruby do # linux
       gem 'unicorn'
