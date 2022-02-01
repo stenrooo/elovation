@@ -14,3 +14,4 @@
 //= require jquery_ujs
 //= require chosen.min
 //= require_tree .
+import "../../../node_modules/chartkick/chart.js"
