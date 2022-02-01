@@ -27,7 +27,7 @@ class PlayersController < ApplicationController
   end
 
   def update
-    if @player.update_attributes(player_params)
+    if @player.update(player_params)
       redirect_to player_path(@player)
     else
       render :edit
