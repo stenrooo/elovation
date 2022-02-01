@@ -10,7 +10,7 @@ gem 'sassc-rails'
 gem 'jquery-rails'
 gem 'coffee-rails'
 gem 'uglifier'
-gem 'chartkick', '3.4.0'
+gem 'chartkick'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # This is necessary for running on linux

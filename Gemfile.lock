@@ -240,7 +240,7 @@ PLATFORMS
 DEPENDENCIES
   better_errors
   binding_of_caller
-  chartkick (= 3.4.0)
+  chartkick
   codeclimate-test-reporter
   coffee-rails
   dynamic_form
