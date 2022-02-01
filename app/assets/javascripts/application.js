@@ -12,7 +12,6 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require jsapi
 //= require chartkick
 //= require chosen.min
 //= require_tree .
